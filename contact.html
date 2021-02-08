@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <img src="lego2.jpg" alt="Picture of LEGO">
+            <div class="titel">LEGO®: Ook voor volwassenen!</div>
+        </header>
+
+
+        <nav>
+            <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Artikelen</a>
+                    <div class="dropdown-content">
+                        <a href="artikel1.html">Losse LEGO® steentjes</a>
+                        <a href="artikel2.html">LEGO® sets voor volwassenen</a>
+                        <a href="artikel3.html">LEGO® Architecture</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+
+        <article>
+            <h2>Neem contact op:</h2>
+            <form name="contact" method="POST" data-netlify="true">
+                <p>
+                    <label>Naam: <input type="text" name="name" value="Je naam.."></label>
+                </p>
+                <p>
+                    <label>Emailadres: <input type="email" name="email" value="Je emailadres.." /></label>
+                </p>
+
+                <p>
+                    <label>Bericht: <textarea name="message" placeholder="Schrijf hier je bericht.."></textarea></label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+
+
+
+        </article>
+
+
+
+        <footer>
+
+            <p>Copyright: Marthe, 2021</p>
+        </footer>
+    </div>
+</body>
+
+</html>
